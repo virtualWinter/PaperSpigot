@@ -1,4 +1,4 @@
-PaperSpigot [![CI Status](http://ci.destroystokyo.com/buildStatus/icon?job=PaperSpigot)](http://ci.destroystokyo.com/job/PaperSpigot/)
+PaperSpigot
 ===========
 
 High performance Spigot fork that aims to fix gameplay and mechanics inconsistencies.
@@ -6,6 +6,7 @@ High performance Spigot fork that aims to fix gameplay and mechanics inconsisten
 [IRC Support and Project Discussion](http://irc.spi.gt/iris/?channels=PaperSpigot)
 
 
+PaperSpigot 1.8.8 with small patches to make it build
 
 
 How To (Server Admins)
