@@ -1,0 +1,22 @@
+name: Build&Publish
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+  
+    steps:
+      - uses: actions/checkout@v4
+  
+      - name: Installing java8 and maven
+        run: sudo apt update && sudo apt install openjdk-8-jdk maven
+  
+      - name: Installing java8 and maven
+        run: sudo apt install openjdk-8-jdk maven
