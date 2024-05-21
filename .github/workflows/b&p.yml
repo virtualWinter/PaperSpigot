@@ -18,5 +18,5 @@ jobs:
       - name: Installing java8 and maven
         run: sudo apt update && sudo apt install openjdk-8-jdk maven
   
-      - name: Installing java8 and maven
+      - name: Run build script
         run: ./build.sh
